@@ -5,6 +5,16 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /* Code below this line is mine {BabaTheCoder :)} */
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: space-between;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 img {
@@ -25,3 +35,46 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* More code by BabaTheCoder :) */
+
+li {
+  /* remove default list styling */
+  list-style: none;
+}
+
+li a {
+  /* remove default link styles */
+  text-decoration: none;
+  color: black;
+}
+
+.footer,
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+
+ul {
+  display: flex;
+  gap: 52px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content .buttons button {
+  padding: 10px 15px;
+}
+
